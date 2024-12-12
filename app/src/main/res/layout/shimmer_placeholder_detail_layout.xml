@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+android:id="@+id/lytTopAnimation"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/black"
+android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200"
+        android:background="@color/hintColor"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+          <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@color/hintColor"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/circle_white" />
+
+        <TextView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@color/hintColor"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/circle_white" />
+
+
+        <TextView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@color/hintColor"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/circle_white" />
+
+
+        <TextView
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@color/hintColor"
+            android:textColor="@color/white"
+            android:textSize="11sp" />
+
+       <!-- <View
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/circle_white" />
+
+
+        <TextView
+            android:id="@+id/tvCertificat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="11sp" />-->
+    </LinearLayout>
+
+        <LinearLayout
+            android:padding="@dimen/dp_10"
+            android:id="@+id/tv_lication"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_10"
+        android:minWidth="@dimen/dp_120"
+        android:minHeight="@dimen/dp_40"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingBottom="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_15"
+        android:background="@color/hintColor"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="@dimen/dp_24"
+            android:background="@color/hintColor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            android:layout_marginLeft="@dimen/dp_8"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"
+            android:background="@color/hintColor"
+            android:textColor="@color/hintColor"/>
+
+    </LinearLayout>
+
+
+            <TextView
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="@dimen/dp_100"
+                tools:text="@string/previews"
+                android:textSize="@dimen/sp_14"
+                android:background="@color/hintColor"
+                android:textColor="@color/hintColor"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/dp_30"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/continue_watching"
+                android:background="@color/hintColor"
+                android:textSize="@dimen/sp_16"
+                android:textColor="@color/hintColor"/>
+
+            <TextView
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Mdjjd jdjdj jkdkd kdjdkkd kdk"
+                android:background="@color/hintColor"
+                android:textSize="@dimen/sp_16"
+                android:textColor="@color/hintColor"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</layout>

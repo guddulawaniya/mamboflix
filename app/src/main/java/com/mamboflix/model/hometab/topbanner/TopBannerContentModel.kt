@@ -1,0 +1,27 @@
+package com.mamboflix.model.hometab.topbanner
+
+class TopBannerContentModel(
+    val banner_status : String?=null,
+    val cat_id : String?=null,
+    val episode_id : String?=null,
+    val content_mode : String?=null,
+    val content_type : String?=null,
+    val description : String?=null,
+    val id : String?=null,
+    val image : String?=null,
+    val poster : String?=null,
+    val path : String?=null,
+    val related_content_id : String?=null,
+    val release_year : String?=null,
+    val content_duration : String?=null,
+    val title : String?=null,
+    val actor_name : String?=null,
+    val director_name : String?=null,
+    val writer_name : String?=null,
+    val trailer_duration : String?=null,
+    val trailer_path : String?=null,
+    val video_quality : String?=null,
+    val type : String?=null,
+    val updated_at : String?=null,
+    val my_list_status : String?=null,
+    val created_at : String?=null)

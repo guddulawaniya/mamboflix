@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_3"
+            android:orientation="vertical">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height=".5dp"
+            android:background="@color/grey_lite" />
+
+        <RelativeLayout
+            android:id="@+id/rlMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_marginRight="@dimen/dp_5"
+            android:backgroundTint="#95b3d7"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_toLeftOf="@+id/ivIcon"
+                android:backgroundTint="@color/green"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dp_5"
+                android:text="test"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+
+            <ImageView
+                android:id="@+id/ivIcon"
+                android:layout_width="@dimen/dp_25"
+                android:layout_height="@dimen/dp_25"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:contentDescription="@string/app_name"
+                app:srcCompat="@drawable/ic_navigate_next_black_24dp"
+                app:tint="@color/white" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/dp_5"
+            android:layout_toLeftOf="@+id/ivIcon"
+            android:backgroundTint="@color/green"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dp_5"
+            android:text="test"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16" />
+
+
+
+    </LinearLayout>
+
+
+</layout>

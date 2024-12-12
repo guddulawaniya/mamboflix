@@ -1,0 +1,150 @@
+{
+  "project_info": {
+    "project_number": "873389260085",
+    "project_id": "mamboflix-574b0",
+    "storage_bucket": "mamboflix-574b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873389260085:android:b524088ee8a3bcb1e4207c",
+        "android_client_info": {
+          "package_name": "com.mamboflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873389260085-42m3uu6d4rsarjja1md3aphtf0f9ia9b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "67680a57b2495cfa44560a6a0cf1f444f68b2e82"
+          }
+        },
+        {
+          "client_id": "873389260085-4nop7le7o1n1bdqce5ilvn5vv9nt2i2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "2e3bb57ca249ea0b739b1e99fae0c895f76ea3b5"
+          }
+        },
+        {
+          "client_id": "873389260085-5kkncrj784epd0h3nf00ssjlph4sd0sf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "fe61479b13ebd8817830fdc452e1bbdf4eafe7db"
+          }
+        },
+        {
+          "client_id": "873389260085-678v14dnd98ke5prm3d3ecjj1c4rqe5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "f555aeed3b32cb52274407b6a87ec5373df28178"
+          }
+        },
+        {
+          "client_id": "873389260085-csrg9un4q6ipu3i3gm82ie6ipi9g0prb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "0f0891b476876ca82ebbf1888f914c4f2ea6598e"
+          }
+        },
+        {
+          "client_id": "873389260085-dm9t2tl7nf3p2joigc6frpqn9r838qmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "3ff9f3adbe1a87d96b8345c01fe42eb98658233b"
+          }
+        },
+        {
+          "client_id": "873389260085-g8vitk76ltm3get02l3943jdibrbatco.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "d0859c1e0cf8dda635bd4322b328dc073563c430"
+          }
+        },
+        {
+          "client_id": "873389260085-huukbaqeberoi5de1i5pshu5c8bsfk31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "1c404a1b8dbce26b58f6f034418fa1b907f2bae0"
+          }
+        },
+        {
+          "client_id": "873389260085-i3b8q6p2rbfeg9os01bedv5pn5l32a0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "3678999b61abc63e9bab3aaed7cd80a912819496"
+          }
+        },
+        {
+          "client_id": "873389260085-icl3tt7796lv0iq4368scbu97c987b1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "28521122b0c48ffef21beec8ec66e46dfa720ea0"
+          }
+        },
+        {
+          "client_id": "873389260085-pbh0luko32obr0dt2o8khhai2be0lujo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "bfce6c0ee38db1ee7d6fde2d33c5d2280c896be4"
+          }
+        },
+        {
+          "client_id": "873389260085-r2bu5s4hgg77cean59r8aidqp8dgte2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "de3ec711330c76956ee290ec325097249d93ab4f"
+          }
+        },
+        {
+          "client_id": "873389260085-u8ah7e1u8efkbqmrj1dpj081ffd476up.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mamboflix",
+            "certificate_hash": "c8e8d88eced089645fca3f7e9fa2db3f85ca5071"
+          }
+        },
+        {
+          "client_id": "873389260085-521kot9gf9pv39d3p0v8vt4f7srbkmu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGNhMlpfixOXpd6G1IIji-B-r2qInhlZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873389260085-521kot9gf9pv39d3p0v8vt4f7srbkmu1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "873389260085-q9taj9gut7b5miknhlmkj524nc1re28c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.maxtra.Mamboflix"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

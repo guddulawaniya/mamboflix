@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/shape_bg_outgoing"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvPopUpSetting1"
+            android:textStyle="bold"
+            android:padding="@dimen/dp_10"
+            android:textColor="@color/white"
+            android:drawableTint="@color/white"
+            android:drawableLeft="@drawable/ic_flag"
+            android:drawablePadding="@dimen/dp_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/report" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:drawableTint="@color/white"
+                android:drawableLeft="@drawable/ic_settings"
+                android:drawablePadding="@dimen/dp_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quality" />
+            <TextView
+                android:textColor="@color/dark_grey"
+                android:textStyle="bold"
+                android:id="@+id/tvPopUpSetting2"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:drawablePadding="@dimen/dp_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/llSubtitle"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:padding="@dimen/dp_10"
+                android:textStyle="bold"
+
+                android:drawableTint="@color/white"
+                android:drawableLeft="@drawable/ic_subtitles"
+                android:drawablePadding="@dimen/dp_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subtitles" />
+            <TextView
+                android:textColor="@color/dark_grey"
+                android:padding="@dimen/dp_10"
+                android:textStyle="bold"
+                android:id="@+id/tvPopUpSetting3"
+                android:drawablePadding="@dimen/dp_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subtitles" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:paddingBottom="@dimen/dp_10"
+                android:textStyle="bold"
+                android:drawableTint="@color/white"
+                android:drawableLeft="@drawable/ic_playback"
+                android:drawablePadding="@dimen/dp_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/playback_speed" />
+
+            <TextView
+                android:textColor="@color/dark_grey"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:paddingBottom="@dimen/dp_10"
+                android:textStyle="bold"
+                android:id="@+id/tvPopUpSetting4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Normal" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

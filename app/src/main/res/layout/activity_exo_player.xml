@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<data>
+
+</data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/exoplayerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:played_color="@color/colorPrimary"
+            app:auto_show="true"
+            app:surface_type="surface_view"
+            app:use_controller="true"
+            app:controller_layout_id="@layout/layout_exoplayer_control_views"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible"/>
+
+
+        </com.google.android.exoplayer2.ui.PlayerView>
+
+
+        <ImageView
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/ic_exo_icon_fastforward"
+            android:layout_centerInParent="true"
+            android:id="@+id/image_restart"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tv_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/white"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_100sdp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:background="@drawable/bg_round_payment"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:visibility="visible"/>
+
+
+    </RelativeLayout>
+
+</layout>

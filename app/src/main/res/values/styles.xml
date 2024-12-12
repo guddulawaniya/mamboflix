@@ -1,0 +1,210 @@
+    <resources xmlns:tools="http://schemas.android.com/tools">
+        <!-- Base application theme. -->
+
+        <style name="MaterialTheme" parent="AppTheme.Base" />
+
+        <style name="AppTheme.Base" parent="Theme.MaterialComponents.Light.NoActionBar">
+            <!--<style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">-->
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="android:windowTranslucentStatus">true</item>
+            <item name="android:windowTranslucentNavigation">true</item>
+            <item name="colorControlNormal">@color/black</item>
+            <item name="colorControlActivated">@color/colorAccent</item>
+            <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        </style>
+
+        <style name="CustomBottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog">
+    <!--        <item name="bottomSheetStyle">@style/CustomBottomSheet</item>-->
+        </style>
+
+    <!--    <style name="CustomBottomSheet" parent="Animation.Design.BottomSheetDialog">-->
+    <!--        <item name="shapeAppearanceOverlay">@style/CustomShapeAppearanceBottomSheetDialog</item>-->
+    <!--    </style>-->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+
+            <item name="colorControlNormal">@color/transparent</item>
+
+            <item name="android:windowTranslucentStatus">true</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+            <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <item name="drawerArrowStyle">@style/WhiteDrawerIconStyle</item>
+            <!--<item name="android:homeAsUpIndicator">@drawable/left_arrow</item>-->
+        </style>
+
+        <style name="WhiteDrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+            <item name="spinBars">true</item>
+            <item name="color">@color/blue</item>
+            <item name="android:drawable">@drawable/toggle_bar</item>
+        </style>
+        <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+
+            <!-- <item name="android:homeAsUpIndicator">@drawable/left_arrow</item>-->
+        </style>
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+
+        <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+            <item name="colorAccent">@color/blue</item>
+            <item name="android:textColorPrimary">@android:color/black</item>
+        </style>
+
+
+        <style name="MyTimePickerDialogTheme" parent="@style/Theme.AppCompat.Light.Dialog">
+            <item name="android:textColor">@color/colorAccent</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+        <style name="searchColor">
+            <item name="android:textColorHint">@android:color/white</item>
+            <item name="android:editTextColor">@android:color/white</item>
+            <!-- your other custom widget styles -->
+        </style>
+
+
+        <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+            <item name="android:textSize">16sp</item>
+        </style>
+
+        <style name="ToolBarStyle" parent="Theme.AppCompat">
+            <item name="android:textColorPrimary">@color/black</item>
+            <item name="android:textColorSecondary">@color/black</item>
+            <item name="actionMenuTextColor">@color/black</item>
+            <!--<item name="android:homeAsUpIndicator">@mipmap/back</item>-->
+        </style>
+
+        <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="colorButtonNormal">@color/colorAccent</item>
+            <item name="colorControlHighlight">@color/colorAccent</item>
+            <item name="statusBarBackground">@color/black</item>
+        </style>
+
+
+        <style name="TransAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme here. -->
+
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="android:windowTranslucentStatus">true</item>
+            <item name="android:windowTranslucentNavigation">true</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+        <style name="AppBaseTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <style name="MyRadioButton" parent="Theme.AppCompat.Light">
+            <item name="colorControlNormal">@color/grey_lite_border</item>
+            <item name="colorControlActivated">@color/colorAccent</item>
+        </style>
+
+        <style name="ExpandedToolbarTheme" parent="ThemeOverlay.AppCompat">
+            <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+            <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        </style>
+
+        <style name="BottomNavigationView">
+            <item name="itemTextAppearanceActive">@style/TextAppearance.BottomNavigationView.Active
+            </item>
+            <item name="itemTextAppearanceInactive">
+                @style/TextAppearance.BottomNavigationView.Inactive
+            </item>
+        </style>
+
+
+
+
+        <!-- blank styles for better code readability-->
+        <style name="TextAppearance" />
+
+        <style name="TextAppearance.BottomNavigationView" />
+
+        <!-- inactive tab icon style -->
+        <style name="TextAppearance.BottomNavigationView.Inactive">
+            <item name="android:textSize">10sp</item>
+        </style>
+
+        <!-- active tab icon style -->
+        <style name="TextAppearance.BottomNavigationView.Active">
+            <item name="android:textSize">10sp</item>
+        </style>
+
+
+        <style name="SwitchCompatColor" >
+            <item name="android:thumb">@color/colorAccent</item>
+            <item name="trackTint">@color/paymentgrey</item>
+            <item name="colorControlNormal">@color/paymentgrey</item>
+            <item name="colorSwitchThumbNormal">@android:color/white</item>
+            <item name="colorControlActivated">@color/colorAccent</item>
+        </style>
+
+
+        <style name="Theme.Tasker.Dialog" parent="@style/Theme.MaterialComponents.Light.Dialog">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <item name="android:backgroundDimEnabled">true</item>
+            <item name="android:clickable">true</item>
+            <!--<item name="android:textViewStyle">@style/Widget.Tasker.TextView</item>-->
+        </style>
+
+        <style name="mySpinnerItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+            <item name="android:dropDownWidth">533dp</item>
+            <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+            <item name="android:showDividers">end</item>
+        </style>
+
+
+        <style name="ToolBarStyle2" parent="Theme.AppCompat">
+            <item name="android:textColorPrimary">@color/white</item>
+            <item name="android:textColorSecondary">@color/white</item>
+            <item name="actionMenuTextColor">@color/white</item>
+        </style>
+
+
+        <style name="AppTheme.TransparentTheme">
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+        </style>
+
+
+        <style name="CircularDeterminateProgressBar">
+            <item name="android:indeterminateOnly">false</item>
+            <item name="android:progressDrawable">@drawable/circle</item>
+        </style>
+
+        <style name="RatingBar" parent="Theme.AppCompat">
+            <item name="colorControlNormal">@color/colorApp1</item>
+            <item name="colorControlActivated">@color/colorApp1</item>
+        </style>
+
+
+        <style name="CommentDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+            <item name="bottomSheetStyle">@style/CommentDialogStyle</item>
+        </style>
+
+        <style name="CommentDialogStyle" parent="Widget.Design.BottomSheet.Modal">
+            <item name="android:background">@color/transparent</item>
+        </style>
+
+
+        <style name="AppModalBottomStyle" parent="Widget.Design.BottomSheet.Modal">
+            <item name="android:background">@drawable/info_bg</item>
+        </style>
+    </resources>

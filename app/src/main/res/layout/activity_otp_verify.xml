@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context=".ui.activity.OtpVerifyActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/AppTheme.PopupOverlay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="@color/white"/>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/dp_8"
+                app:cardBackgroundColor="@color/colorApp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="@dimen/dp_10"
+                android:elevation="@dimen/dp_8">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/sp_12"
+                    android:paddingTop="@dimen/dp_20"
+                    android:paddingRight="@dimen/sp_12"
+                    android:paddingBottom="@dimen/dp_20">
+
+                    <TextView
+                        android:id="@+id/tvTile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dp_5"
+                        android:text="@string/verification_code"
+                        android:fontFamily="@font/din_black_alternate"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_20"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvSubTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:padding="@dimen/dp_1"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/din_medium"
+                        android:text="@string/otp_has_been_sent_to_your_phone_number"
+                        android:textSize="@dimen/sp_14"
+                        android:textStyle="bold" />
+
+                    <in.aabhasjindal.otptextview.OtpTextView
+                        android:id="@+id/otp_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:textColor="@color/black"
+                        app:bar_active_color="@color/black"
+                        app:bar_height="2dp"
+                        app:height="@dimen/dp_45"
+                        app:length="4"
+                        app:box_margin_left="@dimen/dp_10"
+                        android:elevation="@dimen/dp_3"
+                        app:otp_box_background="@drawable/round_otp"
+                        app:bar_inactive_color="@color/colorPrimary"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvSubTitle"
+                        app:otp_text_size="@dimen/dp_20"
+                        app:width="@dimen/dp_60" />
+
+<!--                    <com.chaos.view.PinView-->
+<!--                        android:id="@+id/otp_view"-->
+<!--                        style="@style/PinWidget.PinView"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:gravity="center"-->
+<!--                        android:cursorVisible="true"-->
+<!--                        android:inputType="number"-->
+<!--                        app:hideLineWhenFilled="false"-->
+<!--                        app:itemCount="4"-->
+<!--                        android:itemBackground="@color/white"-->
+<!--                        android:imeOptions="actionDone"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        app:itemHeight="50dp"-->
+<!--                        app:itemRadius="25dp"-->
+<!--                        app:itemWidth="60dp"-->
+<!--                        android:importantForAutofill="yes"-->
+<!--                        app:itemSpacing="18dp"-->
+<!--                        app:lineColor="@color/theme_purple"-->
+<!--                        app:lineWidth="1dp" />-->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_10">
+
+                        <TextView
+                            android:id="@+id/tv_timer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/tv_resend_otp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/resend_otp"
+                            android:fontFamily="@font/din_medium"
+                            android:layout_marginLeft="@dimen/dp_10"
+                            android:textColor="@color/white"
+                            android:visibility="visible"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/lytNext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="@dimen/dp_35">
+
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight=".2"
+                            android:layout_height="match_parent"/>
+
+
+                        <Button
+                            android:id="@+id/btn_otp_verify"
+                            android:layout_width="0dp"
+                            android:layout_weight=".6"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/round_corner_orange"
+                            android:layout_margin="@dimen/dp_4"
+                            android:fontFamily="@font/din_medium"
+                            android:text="@string/proceed"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp_16"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight=".2"
+                            android:layout_height="match_parent"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                app:theme="@style/AppTheme.PopupOverlay"
+                app:titleTextColor="@color/white"/>
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_10">
+
+                    <LinearLayout
+                        android:layout_margin="@dimen/dp_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/round_graw_pop"
+                        android:elevation="5dp"
+                        android:orientation="vertical">
+
+
+                        <EditText
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/etEmail"
+                            android:hint="Subject"
+                            android:layout_marginLeft="@dimen/dp_20"
+                            android:layout_marginRight="@dimen/dp_20"
+                            android:fontFamily="@font/din_medium"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_10"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:padding="@dimen/dp_10"
+                            android:gravity="start"
+                            android:singleLine="true"
+                            android:inputType="textEmailAddress"
+                            android:background="@drawable/round_corner_white"
+                            android:textColor="@color/black"/>
+
+
+
+
+
+                        <EditText
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/etMsg"
+                            android:hint="@string/report_msg"
+                            android:layout_marginLeft="@dimen/dp_20"
+                            android:fontFamily="@font/din_medium"
+                            android:layout_marginRight="@dimen/dp_20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:padding="@dimen/dp_10"
+                            android:gravity="start"
+                            android:lines="4"
+                            android:background="@drawable/round_corner_white"
+                            android:textColor="@color/black"/>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/btSubmit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minHeight="@dimen/dp_40"
+                                android:minWidth="@dimen/dp_120"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_marginBottom="@dimen/dp_5"
+                                android:fontFamily="@font/din_medium"
+                                android:textColor="@color/white"
+                                android:background="@drawable/round_corner_orange"
+                                android:text="@string/submit" />
+
+                            <!--<View
+                                android:layout_width="@dimen/dp_18"
+                                android:layout_height="match_parent"
+                                android:background="@color/transparent"/>
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/btCancel"
+                                android:textColor="@color/black"
+                                android:minHeight="@dimen/dp_40"
+                                android:background="@drawable/round_corner_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:minWidth="@dimen/dp_120"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_marginBottom="@dimen/dp_5"
+                                android:text="@string/cancel" />-->
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+
+           </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_item_product"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:id="@+id/ll_root_item_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/paymentgrey"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/din_medium"
+            android:text="@string/single_user"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:textSize="14dp" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_inner_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/tv_title"
+            android:background="@drawable/round_corner_white">
+
+            <RelativeLayout
+                android:id="@+id/rl_top_data"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="$4.99"
+                        android:fontFamily="@font/din_black_alternate"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tvValidity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#000"
+                        android:fontFamily="@font/din_medium"
+                        android:textStyle="bold"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view_line"
+                android:layout_width="match_parent"
+                android:layout_height=".5dp"
+                android:layout_below="@id/rl_top_data"
+                android:background="@color/grey" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@id/view_line"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/tvSubPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="10dp"
+                    android:text="@string/_1_66_month"
+                    android:textColor="#000"
+                    android:fontFamily="@font/din_medium"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:minWidth="110dp"
+            android:background="#f00"
+            app:cardCornerRadius="20dp"
+             android:layout_centerHorizontal="true"
+            app:cardElevation="4dp"
+            android:layout_below="@id/rl_inner_view"
+            android:layout_marginTop="-30dp"
+            app:cardUseCompatPadding="true"
+            >
+            <RelativeLayout
+                android:id="@+id/rl_bottom_cv_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:background="@color/dark_grey">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_pack"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/din_medium"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</layout>

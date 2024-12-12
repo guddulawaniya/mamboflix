@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context=".ui.activity.LoginActivity">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                app:theme="@style/AppTheme.PopupOverlay"
+                app:titleTextColor="@color/white"/>
+
+
+
+            <!-- <androidx.core.widget.NestedScrollView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical"
+                     android:padding="@dimen/dp_10">
+
+
+
+
+
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:orientation="vertical">
+
+                         <androidx.cardview.widget.CardView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_centerInParent="true"
+                             android:layout_margin="@dimen/dp_8"
+                             app:cardBackgroundColor="@color/transparent"
+                             app:cardElevation="@dimen/dp_3"
+                             app:cardUseCompatPadding="false"
+                             app:cardCornerRadius="@dimen/dp_10"
+                             android:elevation="@dimen/dp_8">
+
+                             <TextView
+                                 android:id="@+id/tvContent"
+                                 android:layout_width="match_parent"
+                                 android:layout_height="wrap_content"
+                                 android:visibility="gone"/>
+
+                             <LinearLayout
+                                 android:layout_width="match_parent"
+                                 android:layout_height="match_parent"
+                                 android:orientation="vertical"
+                                 android:padding="@dimen/dp_10"
+                                 android:visibility="visible">
+
+                                 <LinearLayout
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:layout_margin="@dimen/dp_5"
+                                     android:orientation="vertical">
+
+                                     <RelativeLayout
+                                         android:layout_width="match_parent"
+                                         android:layout_height="wrap_content">
+
+                                         <TextView
+                                             android:layout_width="wrap_content"
+                                             android:layout_height="wrap_content"
+                                             android:text="Mail us at"
+                                             android:textStyle="bold"
+                                             android:layout_marginTop="@dimen/dp_5"
+                                             android:textColor="@color/white" />
+
+                                     </RelativeLayout>
+
+
+                                     &lt;!&ndash;  <View
+                                               android:layout_width="match_parent"
+                                               android:layout_height="@dimen/dp_1"
+                                               android:layout_marginTop="10dp"
+                                               android:background="@color/grey_lite" />&ndash;&gt;
+                                     <TextView
+                                         android:id="@+id/tvMailId"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"
+                                         android:layout_marginTop="@dimen/dp_10"
+                                         android:textColor="@color/white"
+                                         android:text="enquiries@750amped.co.za" />
+
+                                 </LinearLayout>
+
+                                 <View
+                                     android:layout_width="match_parent"
+                                     android:layout_height=".5dp"
+                                     android:layout_marginTop="5dp"
+                                     android:background="@color/grey_lite" />
+
+                                 <LinearLayout
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:layout_marginTop="@dimen/dp_15"
+                                     android:layout_margin="@dimen/dp_5"
+                                     android:orientation="vertical">
+
+                                     <RelativeLayout
+                                         android:layout_width="match_parent"
+                                         android:layout_height="wrap_content">
+
+                                         <TextView
+                                             android:layout_width="wrap_content"
+                                             android:layout_height="wrap_content"
+                                             android:layout_marginTop="@dimen/dp_5"
+                                             android:text="Call us at"
+                                             android:textColor="@color/white"
+                                             android:textStyle="bold" />
+
+                                     </RelativeLayout>
+
+
+                                     &lt;!&ndash;  <View
+                                               android:layout_width="match_parent"
+                                               android:layout_height="@dimen/dp_1"
+                                               android:layout_marginTop="10dp"
+                                               android:background="@color/grey_lite" />&ndash;&gt;
+                                     <TextView
+                                         android:id="@+id/tv_contact_number"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"
+                                         android:layout_marginTop="@dimen/dp_10"
+                                         android:textColor="@color/white"
+                                         android:text="+110078451245" />
+
+                                 </LinearLayout>
+
+                                 <View
+                                     android:layout_width="match_parent"
+                                     android:layout_height=".5dp"
+                                     android:layout_marginTop="5dp"
+                                     android:background="@color/grey_lite" />
+
+                                 <LinearLayout
+                                     android:layout_width="match_parent"
+                                     android:layout_height="wrap_content"
+                                     android:layout_margin="@dimen/dp_5"
+                                     android:orientation="vertical">
+
+                                     <RelativeLayout
+                                         android:layout_width="match_parent"
+                                         android:layout_height="wrap_content">
+
+                                         <TextView
+                                             android:id="@+id/tvTitle"
+                                             android:layout_width="wrap_content"
+                                             android:layout_height="wrap_content"
+                                             android:text="Reach Us"
+                                             android:textStyle="bold"
+                                             android:layout_marginTop="@dimen/dp_5"
+                                             android:textColor="@color/white" />
+
+                                     </RelativeLayout>
+
+                                     <TextView
+                                         android:id="@+id/tv_address"
+                                         android:layout_width="wrap_content"
+                                         android:layout_height="wrap_content"
+                                         android:textColor="@color/white"
+                                         android:text="B-7, First Floor, Greater Noida, India"
+                                         android:layout_marginTop="@dimen/dp_5"/>
+
+                                 </LinearLayout>
+
+                                 <View
+                                     android:layout_width="match_parent"
+                                     android:layout_height="@dimen/dp_1"
+                                     android:layout_marginTop="5dp"
+                                     android:background="@color/grey_lite"
+                                     android:visibility="gone"/>
+
+                             </LinearLayout>
+
+                         </androidx.cardview.widget.CardView>
+
+                     </LinearLayout>
+
+                 </LinearLayout>
+
+             </androidx.core.widget.NestedScrollView>-->
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/faqRecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_10"
+                android:padding="@dimen/dp_5" />
+
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

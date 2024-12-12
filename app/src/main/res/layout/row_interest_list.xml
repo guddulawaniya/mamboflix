@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/lytTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:id="@+id/lytTopNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10"
+            android:background="@drawable/round_corner_grey"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/english"
+                android:gravity="center"
+                android:fontFamily="@font/din_medium"
+                android:textAllCaps="true"
+                android:layout_marginRight="@dimen/dp_5"
+                android:layout_toLeftOf="@+id/ivName"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/sp_15"/>
+
+
+            <ImageView
+                android:id="@+id/ivName"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/sp_18"
+                android:layout_height="@dimen/sp_18"
+                android:src="@drawable/check"/>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</layout>

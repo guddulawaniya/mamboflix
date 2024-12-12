@@ -1,0 +1,254 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mamboflix</string>
+
+    <string name="already_have_an_account_login_here">Already have an account? <font fgcolor='#f4a35a'> <b>Login</b></font></string>
+    <string name="login_do_not">Don\'t have an account? <font fgcolor='#f4a35a'> <b>Sign up</b></font></string>
+
+    <string name="usererror">Enter a valid username</string>
+    <string name="surname">Enter a valid surname</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter Valid Email</string>
+    <string name="mobile">Please Enter Mobile Number</string>
+    <string name="password">Please Enter Password</string>
+    <string name="cpassword">Please Enter Confirm Password</string>
+    <string name="company">Please Enter Company Namer</string>
+    <string name="city">Please Enter City </string>
+    <string name="check_network_connection">Please check your Internet connection</string>
+    <string name="completeprofile">Please complete your profile first</string>
+    <string name="dashboardHomeTab">Home</string>
+    <string name="dashboardMoviesTab">Movies</string>
+    <string name="dashboardTvTab">Tv Shows</string>
+    <string name="dashboardListTab">My List</string>
+    <string name="dashboardMoreTab">More</string>
+    <string name="auto_verifying_your_otp_in">Please enter received OTP</string>
+
+    <string name="server_client_id" translatable="false">873389260085-b2rgba7675cbt62hidcpjs58j6qiadql.apps.googleusercontent.com</string>
+    <string name="facebook_app_id" translatable="false">803570640197715</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb803570640197715</string>
+    <string name="fb_login_client_token" translatable="false">803570640197715</string>
+
+    <string-array name="select_ethnicity">
+        <item>Action</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="save">SAVE</string>
+    <string name="cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="mail_us_at">Email us at</string>
+    <string name="call_us_at">Call us at</string>
+    <string name="reach_us">Reach Us</string>
+    <string name="b_7_first_floor_greater_noida_india">B-7, First Floor, Greater Noida, India</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="if_meeting_someone_enter_the_details_of_person">If meeting someone, enter the details of person</string>
+    <string name="full_name">Full Name</string>
+    <string name="how_do_you_want_to_recover_your_account">How do you want to recover your account?</string>
+    <string name="email_id">Email id</string>
+    <string name="phone_number">Phone number</string>
+    <string name="please_enter_your_email_and_mobile">Please enter your valid email/mobile number.</string>
+    <string name="please_enter_password">Please enter your password.</string>
+    <string name="enter_email_id">Enter email id</string>
+    <string name="enter_phone_number">Enter Phone number</string>
+    <string name="genre">GENRE</string>
+    <string name="select_genre_according_to_your_interest">Select genre according to your interest</string>
+    <string name="no_data">No Data</string>
+    <string name="browse">BROWSE</string>
+    <string name="select_your_language">Select Your Language</string>
+    <string name="english">ENGLISH</string>
+    <string name="next">Next</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="email_mobile_number">Email / Mobile Number</string>
+    <string name="manage_profile">Manage Profile</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="otp_has_been_sent_to_your_phone_number">OTP has been sent to your phone number</string>
+    <string name="resend_otp">Resend OTP!</string>
+    <string name="proceed">PROCEED</string>
+    <string name="daily">DAILY</string>
+    <string name="weekly">WEEKLY</string>
+    <string name="monthly">Monthly</string>
+    <string name="past_offer_code">Past Offer Code</string>
+    <string name="apply">APPLY</string>
+    <string name="how_would_you_like_to_pay">How would you like to pay?</string>
+    <string name="negative">Negative</string>
+    <string name="positive">Positive</string>
+    <string name="payable_amount_4_99">PAYABLE AMOUNT : </string>
+    <string name="pay_now">Proceed to Pay</string>
+    <string name="pay_now2">Others</string>
+    <string name="pay_now1">MobileMoney</string>
+    <string name="play">Play</string>
+    <string name="share">Share</string>
+    <string name="like">Like</string>
+    <string name="download">Download</string>
+    <string name="fast_and_furious_is_lorem_ipsum_dolor_sit_amet_lorem_ipsum_dolor_sit_amet_simple_a_dummy_text">Fast and Furious is Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet simple a dummy text.</string>
+    <string name="cast_james_doe_eva_camp_richard_morris">Cast : James Doe, Eva Camp, Richard Morris</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="login_password">Password</string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_details">Edit Details</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="change_password">Change Password</string>
+    <string name="change_password1">Your Password is changed.</string>
+    <string name="old_password">Old Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="parental_control">Parental Control</string>
+    <string name="recent_viewing_activity">Recent Viewing Activity</string>
+    <string name="hd_quality_video_download">HD Quality Video Download</string>
+    <string name="preferred_language">Preferred Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="my_plans">My Plan</string>
+    <string name="subtitle">Subtitle</string>
+
+
+    <string name="download_over_wi_fi_only">Download over Wi-Fi only</string>
+    <string name="let_s_get_started">Let\'s Get Started</string>
+    <string name="create_your_account">Create your account</string>
+    <string name="confirm_password">Re-enter Confirm Password</string>
+    <string name="sign_up">Sign UP</string>
+    <string name="login_with">Login With</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="create_new_password">Create new password</string>
+    <string name="please_create_new_password">Please Create new password.</string>
+    <string name="skip">Skip</string>
+    <string name="who_s_watching">WHO\'S WATCHING?</string>
+    <string name="add_profile">ADD PROFILE</string>
+    <string name="select_profile_type">Select Profile Type</string>
+    <string name="declaration">Declaration</string>
+    <string name="welcome_to_maxtra">Welcome to Maxtra</string>
+    <string name="delete">Delete</string>
+    <string name="my_list">My List</string>
+    <string name="mambo_orginal">Mambo Original</string>
+    <string name="info">Info</string>
+
+
+    <string name="previews">Previews</string>
+    <string name="continue_watching">Continue Watching</string>
+    <string name="because_of_you_watched_star_wars">Because of you watched</string>
+    <string name="trending_now">Trending Now</string>
+    <string name="most_watched">Most Watched</string>
+    <string name="report">Report</string>
+    <string name="quality">Quality :</string>
+    <string name="subtitles">Subtitles :</string>
+    <string name="playback_speed">Playback Speed :</string>
+    <string name="auto">Auto</string>
+    <string name="standard">Standard</string>
+    <string name="hd">HD</string>
+    <string name="account_holder">Account Holder</string>
+    <string name="new_movies_added">New movies added</string>
+    <string name="single_user">SINGLE USER</string>
+    <string name="_3_months">3 Months</string>
+    <string name="select_pack">select pack</string>
+    <string name="kid" translatable="false">Kids</string>
+    <string name="or">Or</string>
+    <string name="log_in">Log in</string>
+    <string name="_1_66_month" translatable="false">$ 1.66/month</string>
+    <string name="device_1" translatable="false">Device1</string>
+    <string name="director_lp">Director L.P</string>
+    <string name="kiswahili" translatable="false">KISWAHILI</string>
+    <string name="logout">Logout</string>
+    <string name="myDownloads">My Downloads</string>
+    <string name="paymentandbilling">Payment and Billing</string>
+    <string name="manageDevices">Manage Devices</string>
+    <string name="offers">Offers</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="myWallet">My Wallet</string>
+    <string name="transactionHistory">Transaction History</string>
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="stackingWallet">Staking Wallet</string>
+    <string name="pressbackagain">Press Back again to Exit.</string>
+    <string name="welcome">Welcome </string>
+    <string name="logoutConfirmation">Do you want to logout?</string>
+    <string name="track_selection_title" translatable="false">Select tracks</string>
+
+    <string name="no_downloads_yet">No Downloads yet.</string>
+    <string name="add_movies_tv_shows_to_your_list_so_you_can_easily_find_them_later"><![CDATA[Add movies & TV shows to your list so you can easily find them later]]></string>
+    <string name="find_something_to_watch_right_now">Find something to watch right now</string>
+    <string name="clear_all">Clear All</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="do_you_want">Do you want to remove this movie?</string>
+    <string name="report_msg">Message</string>
+    <string name="submit">Submit</string>
+    <string name="purchase_package">You do not have any subscription, Please purchase the paid plan for more entertainment.</string>
+    <string name="subscription">Subscription</string>
+    <string name="category_select">Select Category</string>
+    <string name="device_name">Device name</string>
+    <string name="payment_history">Payment History</string>
+    <string name="oops">Oops</string>
+    <string name="session">Your session has expired. Please login.</string>
+    <string name="price">Price</string>
+    <string name="des_price">Discounted Price</string>
+    <string name="validity">Validity</string>
+    <string name="detail">Detail</string>
+    <string name="alert">Alert</string>
+    <string name="rating">"Please select rating "</string>
+    <string name="confirm_payment">Confirm Payment</string>
+    <string name="package_details">Package Details</string>
+    <string name="no_notification">You have no new notification</string>
+    <string name="default_notification_channel_id">Mamboflix</string>
+    <string name="default_cvv_tokenization_label" translatable="false">CVV Tokenization</string>
+    <string name="cvv_tokenization_label" translatable="false">CVV Tokenization</string>
+    <string name="button_pay" translatable="false">Pay</string>
+    <string name="back">Change Language</string>
+    <string name="okay">Okay</string>
+    <string name="yearly">Yearly</string>
+    <string name="monthly1">Monthly</string>
+    <string name="weekly1">Weekly</string>
+    <string name="apply1">Apply</string>
+    <string name="button_buy">Buy (Card tokenization) - </string>
+
+    <string name="user">User</string>
+    <string name="expired_on">Expiry On</string>
+    <string name="discount">Discount</string>
+    <string name="family_pack">Family Pack</string>
+    <string name="more_details">More Details</string>
+    <string name="select">Select</string>
+    <string name="tzs">TZS</string>
+    <string name="emptymobileno">Please enter your mobile number in profile section</string>
+    <string name="Reviewalreadysubmitted">Review already submitted</string>
+    <string name="minimum_amount_required_for_the_mobile_money_payment_is_tzs_1000">Minimum amount required for the mobile money payment is 1000</string>
+    <string name="pleaseenterreview">Please enter your review</string>
+    <string name="Thankyouforyourrating">Thank you for your rating.</string>
+    <string name="rating1">Rating</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="no_ratings_yet_be_the_first_to_rate">No ratings yet, be the first to rate.</string>
+    <string name="post">POST</string>
+    <string name="write_review">Write Review</string>
+    <string name="reviews">Reviews</string>
+    <string name="succes">Success</string>
+    <string name="limiteexcedd">You have reached the login limit in free account. To login on more devices, please purchase subscription.</string>
+    <string name="limiteexcedd1">"You have reached the maximum login limit.   "</string>
+    <string name="exo_track_selection_title_video">Video Tracks</string>
+    <string name="exo_track_selection_title_audio">Audio Tracks</string>
+    <string name="exo_track_selection_title_text">Text Tracks</string>
+    <string-array name="Languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Perl</item>
+    </string-array>
+    <string name="SubscriptionPlan">Subscription Plan</string>
+    <string name="validupto">Valid Upto</string>
+    <string name="days">Days</string>
+    <string name="successmsg">Your payment is successful.\n Now enjoy your plan.</string>
+    <string name="titlemsg">Thank You !</string>
+    <string name="wait">Wait ...</string>
+    <string name="fail">Sorry ...</string>
+    <string name="failed">Your payment failed.</string>
+    <string name="tryagain">Try Again.</string>
+    <string name="pending">Your payment is pending.\n Please wait some time.</string>
+    <string name="search">Search</string>
+</resources>

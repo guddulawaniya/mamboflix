@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> Mamboflix </string>
+    <string name = "default_notification_channel_id"> Mamboflix </string>
+    <string name = "password"> Tafadhali ingiza nywila </string>
+    <string name = "cpassword"> Tafadhali andika thibitisha nywila </string>
+    <string name = "already_have_an_account_login_here"> Tayari una akaunti? <font fgcolor = '#f4a35a'> <b> Ingia </b></font> </string>
+    <string name = "login_do_not"> Je! huna akaunti? <font fgcolor = '#f4a35a'> <b> Jisajili </b> </font> </string>
+    <string name="detail">Detail</string>
+    <string name = "usererror"> Ingiza jina la mtumiaji halali </string>
+    <string name = "surname"> Ingiza jina sahihi </string>
+    <string name = "nameerror"> Ingiza jina halali </string>
+    <string name = "emailerror"> Ingiza Barua pepe Halali </string>
+    <string name = "mobile"> Tafadhali ingiza Nambari ya Rununu </string>
+    <string name = "company"> Tafadhali ingiza Kampuni Namer </string>
+    <string name="mambo_orginal">Mambo Original</string>
+    <string name = "city"> Tafadhali ingiza Mji </string>
+    <string name="offers">Ofa</string>
+    <string name="okay">Sawa</string>
+    <string name = "check_network_connection"> Tafadhali angalia muunganisho wako wa Mtandao </string>
+
+    <string name = "dashboardHomeTab"> Nyumbani </string>
+    <string name = "dashboardMoviesTab"> Sinema </string>
+    <string name = "dashboardTvTab"> Maonyesho ya Tv </string>
+    <string name = "dashboardListTab"> Orodha Yangu </string>
+    <string name = "dashboardMoreTab"> Zaidi </string>
+    <string name = "server_client_id" translatable = "false"> 873389260085-b2rgba7675cbt62hidcpjs58j6qiadql.apps.googleusercontent.com </string>
+    <string name = "facebook_app_id" translatable = "false"> 803570640197715 </string>
+    <string name = "fb_login_protocol_scheme" translatable = "false"> fb803570640197715 </string>
+
+    <string-array name="select_ethnicity">
+        <item>Action</item>
+    </string-array>
+
+    <string name = "hello_blank_fragment" translatable = "false"> kipande tupu cha hello</string>
+
+    <string name = "save"> SAVE </string>
+    <string name = "cancel"  ignore = "ButtonCase"> GHAIRI </string>
+    <string name = "mail_us_at"> Tutumie barua pepe kwa </string>
+    <string name = "call_us_at"> Tupigie simu kwa </string>
+    <string name = "reach_us"> Tufikie </string>
+    <string name = "b_7_first_floor_greater_noida_india"> B-7, Ghorofa ya Kwanza, Greater Noida, India </string>
+    <string name = "upload_picture"> Pakia Picha </string>
+    <string name = "if_meeting_someone_enter_the_details_of_person"> Ukikutana na mtu, ingiza maelezo ya mtu </string>
+    <string name = "full_name"> Jina Kamili </string>
+    <string name = "how_do_you_want_to_recover_your_account"> Je! unataka kupata akaunti yako vipi? </string>
+    <string name = "email_id"> Kitambulisho cha barua pepe </string>
+    <string name = "phone_number"> Nambari ya simu </string>
+    <string name = "enter_email_id"> Ingiza kitambulisho cha barua pepe </string>
+    <string name = "enter_phone_number"> Ingiza nambari ya simu </string>
+    <string name = "genre"> GENRE </string>
+    <string name = "select_genre_according_to_your_interest"> Chagua aina kulingana na masilahi yako </string>
+    <string name = "no_data"> Hakuna Data </string>
+    <string name = "browse"> Vinjari </string>
+    <string name = "select_your_language"> Chagua Lugha Yako </string>
+
+    <string name="please_enter_your_email_and_mobile">Tafadhali weka barua pepe/nambari yako ya rununu.</string>
+    <string name="please_enter_password">Tafadhali weka nenosiri lako.</string>
+    <string name = "next"> Ijayo </string>
+    <string name = "welcome_back"> Karibu tena </string>
+    <string name = "login_to_your_account"> Ingia kwenye akaunti yako </string>
+    <string name = "email_mobile_number"> Nambari ya barua pepe / Nambari ya simu </string>
+    <string name = "manage_profile"> Dhibiti Profaili </string>
+    <string name = "verification_code"> Msimbo wa Uthibitishaji </string>
+    <string name = "otp_has_been_sent_to_your_phone_number"> OTP imetumwa kwa nambari yako ya simu </string>
+    <string name = "resend_otp"> Tuma tena OTP! </string>
+    <string name = "proceed"> ENDELEA </string>
+    <string name = "daily"> KILA SIKU </string>
+    <string name = "weekly"> WIKI </string>
+    <string name = "monthly"> Kila mwezi </string>
+    <string name = "past_offer_code"> Msimbo wa Zamani wa Kutoa </string>
+    <string name = "apply"> TUMIA </string>
+    <string name = "how_would_you_like_to_pay"> Je! ungependa kulipa? </string>
+    <string name = "negative"> Hasi </string>
+    <string name = "positive"> Chanya </string>
+    <string name = "payable_amount_4_99"> Kiasi kinacholipwa: </string>
+    <string name = "pay_now"> LIPA SASA </string>
+    <string name = "play"> Cheza </string>
+    <string name = "share"> Shiriki </string>
+    <string name = "like"> Penda </string>
+    <string name = "download"> Pakua </string>
+    <string name = "fast_and_furious_is_lorem_ipsum_dolor_sit_amet_lorem_ipsum_dolor_sit_amet_simple_a_dummy_text"> Haraka na hasira ni Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet rahisi maandishi ya dummy. </string>
+    <string name = "cast_james_doe_eva_camp_richard_morris"> Wahusika: James Doe, Eva Camp, Richard Morris </string>
+
+
+    <string name="edit_profile">Hariri Profaili</string>
+    <string name = "my_profile"> Profaili yangu </string>
+    <string name = "edit_details"> Hariri Maelezo </string>
+    <string name = "profile_picture"> Picha ya Profaili </string>
+    <string name = "name"> Jina </string>
+    <string name = "email"> Barua pepe </string>
+    <string name="login_password">Nenosiri</string>
+    <string name = "mobile_number"> Nambari ya rununu </string>
+    <string name = "change_password"> Badilisha Nywila </string>
+    <string name = "old_password"> Nenosiri la Zamani </string>
+    <string name = "forgot_password"> Umesahau Nenosiri? </string>
+    <string name = "new_password"> Nenosiri mpya </string>
+    <string name = "save_changes"> Hifadhi Mabadiliko </string>
+    <string name = "parental_control"> Udhibiti wa Wazazi </string>
+    <string name = "recent_viewing_activity"> Shughuli ya Kuangalia Hivi Karibuni </string>
+    <string name = "hd_quality_video_download"> Upakuaji wa Video ya HD </string>
+    <string name = "preferred_language"> Lugha Unayopendelea </string>
+    <string name = "notifications"> Arifa </string>
+    <string name="my_plans">mpango wangu</string>
+    <string name = "subtitle"> Kichwa kidogo </string>
+
+
+
+    <string name = "download_over_wi_fi_only"> Pakua kupitia Wi-Fi tu </string>
+    <string name = "let_s_get_started"> Wacha tuanze </string>
+    <string name = "create_your_account"> Unda akaunti yako </string>
+    <string name = "confirm_password"> Thibitisha Nenosiri </string>
+    <string name = "sign_up"> Jisajili </string>
+    <string name = "login_with"> Ingia na </string>
+    <string name = "google"> Google </string>
+    <string name = "facebook"> Facebook </string>
+    <string name = "create_new_password"> Unda nywila mpya </string>
+    <string name = "please_create_new_password"> Tafadhali Unda nywila mpya. </string>
+    <string name = "skip"> Ruka </string>
+    <string name = "who_s_watching"> NANI ANAANGALIA? </string>
+    <string name = "add_profile"> ONGEZA PROFILE </string>
+    <string name = "select_profile_type"> Chagua Aina ya Profaili </string>
+    <string name = "declaration"> Azimio </string>
+    <string name = "welcome_to_maxtra"> Karibu kwenye Maxtra </string>
+    <string name = "delete"> Futa </string>
+    <string name = "my_list"> Orodha yangu </string>
+    <string name = "info"> Maelezo </string>
+
+
+    <string name = "previews"> Uhakiki </string>
+    <string name = "continue_watching"> Endelea Kutazama </string>
+    <string name = "because_of_you_watched_star_wars"> Kwa sababu yako ulitazama </string>
+    <string name = "trending_now"> Inayovuma Sasa </string>
+    <string name = "most_watched"> Iliyotazamwa Zaidi </string>
+    <string name = "report"> Ripoti </string>
+    <string name = "quality"> Ubora: </string>
+    <string name = "subtitles"> Manukuu: </string>
+    <string name = "playback_speed"> Kasi ya uchezaji: </string>
+    <string name = "auto"> Otomatiki </string>
+    <string name = "standard"> Kiwango </string>
+    <string name = "hd"> HD </string>
+
+
+    <string name = "account_holder"> Mmiliki Akaunti </string>
+    <string name = "new_movies_added"> Sinema mpya zimeongezwa </string>
+    <string name = "single_user"> MTUMIAJI MMOJA </string>
+    <string name = "_3_months"> Miezi 3 </string>
+    <string name = "select_pack"> chagua pakiti </string>
+    <string name = "kid" translatable = "false"> watoto </string>
+    <string name = "or"> Au </string>
+    <string name = "log_in"> Ingia </string>
+    <string name = "_1_66_month" translatable = "false"> $ 1.66 / mwezi </string>
+    <string name = "device_1" translatable = "false"> Kifaa1 </string>
+    <string name = "director_lp"> Mkurugenzi L.P </string>
+    <string name = "kiswahili" translatable = "false"> KISWAHILI </string>
+    <string name = "logout"> Kutoka </string>
+    <string name = "myDownloads"> Vipakuzi Vangu </string>
+    <string name = "paymentandbilling"> Malipo na Malipo </string>
+    <string name = "manageDevices"> Dhibiti Vifaa </string>
+    <string name = "settings"> Mipangilio </string>
+    <string name = "help"> Msaada </string>
+    <string name = "contactUs"> Wasiliana nasi </string>
+    <string name = "myWallet"> Pochi Yangu </string>
+    <string name = "transactionHistory"> Historia ya Ununuzi </string>
+    <string name = "send"> Tuma </string>
+    <string name = "receive"> Pokea </string>
+    <string name = "stackingWallet"> Staking Wallet </string>
+    <string name = "pressbackagain"> Bonyeza Rudi tena ili Utoke. </string>
+    <string name = "welcome"> Karibu </string>
+    <string name = "logoutConfirmation"> Je! unataka kuondoka? </string>
+    <string name = "track_selection_title" translatable = "false"> Chagua nyimbo </string>
+    <string name="no_downloads_yet">Hakuna Upakuaji bado.</string>
+    <string name="add_movies_tv_shows_to_your_list_so_you_can_easily_find_them_later"><![CDATA[Ongeza sinema na vipindi vya Runinga kwenye orodha yako ili uweze kuzipata kwa urahisi baadaye]]></string>
+    <string name="find_something_to_watch_right_now">Pata kitu cha kutazama sasa hivi</string>
+    <string name="clear_all">Futa Yote</string>
+    <string name="confirmation">Uthibitisho</string>
+    <string name="no">Hapana</string>
+    <string name="yes">Ndio</string>
+    <string name="do_you_want">Je! Unataka kuondoa sinema hii?</string>
+    <string name="report_msg">Ujumbe</string>
+    <string name="submit">Wasilisha</string>
+    <string name="purchase_package">Huna usajili wowote, Tafadhali nunua mpango uliolipwa kwa burudani zaidi.</string>
+    <string name="subscription">Usajili</string>
+    <string name="category_select">Chagua Jamii</string>
+    <string name="device_name">Jina la kifaa</string>
+    <string name="payment_history">Historia ya Malipo</string>
+    <string name="oops">Lo!</string>
+    <string name="session">kipindi chako kimekwisha. Tafadhali ingia.</string>
+    <string name="price">Bei</string>
+    <string name="des_price">Bei iliyopunguzwa</string>
+    <string name="validity">Uhalali</string>
+    <string name="alert">Tahadhari</string>
+    <string name="rating">"Tafadhali chagua ukadiriaji"</string>
+    <string name="confirm_payment">Thibitisha Malipo</string>
+    <string name="no_notification">Huna arifa mpya</string>
+    <string name="back">Badilisha Lugha</string>
+    <string name="change_password1">Nenosiri lako limebadilishwa.</string>
+    <string name="pay_now1">MobileMoney</string>
+    <string name="pay_now2">Wengine
+        <string name="yearly">Yearly</string>
+    <string name="monthly1">Monthly</string>
+    <string name="weekly1">Weekly</string>
+    <string name="apply1">Apply</string>
+<string name="package_details">Maelezo ya Kifurushi</string>
+</string>
+    <string name="user">Mtumiaji</string>
+    <string name="expired_on">Imeisha muda wake</string>
+    <string name="discount">Punguzo</string>
+    <string name="family_pack">Kifurushi cha Familia</string>
+    <string name="more_details">Maelezo zaidi</string>
+    <string name="select">Chagua</string>
+    <string name="tzs">TZS</string>
+    <string name="emptymobileno">Tafadhali ingiza nambari yako ya rununu katika sehemu ya wasifu</string>
+    <string name="minimum_amount_required_for_the_mobile_money_payment_is_tzs_1000">Kiwango cha chini kinachohitajika kwa malipo ya pesa ya rununu ni TZS 1000</string>
+    <string name="Reviewalreadysubmitted">Ukaguzi tayari umewasilishwa</string>
+    <string name="pleaseenterreview">Tafadhali ingiza ukaguzi wako</string>
+    <string name="Thankyouforyourrating">Asante kwa ukadiriaji wako.</string>
+    <string name="rating1">Ukadiriaji</string>
+    <string name="downloaded">Imepakuliwa</string>
+    <string name="no_ratings_yet_be_the_first_to_rate">Hakuna ukadiriaji bado, kuwa wa kwanza kukadiria.</string>
+    <string name="post">CHAPISHO</string>
+    <string name="write_review">Andika Mapitio</string>
+    <string name="reviews">Mapitio</string>
+    <string name="succes">Mafanikio</string>
+    <string name="limiteexcedd">Umefikia kikomo cha kuingia katika akaunti ya bure. Ili kuingia kwenye vifaa zaidi, tafadhali nunua usajili.</string>
+    <string name="limiteexcedd1">Umefikia kikomo cha juu cha kuingia.</string>
+    <string name="SubscriptionPlan">Mpango wa Usajili</string>
+    <string name="validupto">Upto halali</string>
+    <string name="days">siku</string>
+    <string name="successmsg">"Malipo yako yamefanikiwa.\n Sasa furahiya mpango wako."</string>
+    <string name="titlemsg">Asante !</string>
+    <string name="wait">Subiri ...</string>
+    <string name="pending">Malipo yako yanasubiri.\n Tafadhali subiri kwa muda.</string>
+    <string name="fail">Samahani ...</string>
+    <string name="failed">Malipo yako hayakufaulu.</string>
+    <string name="tryagain">Jaribu tena.</string>
+</resources>

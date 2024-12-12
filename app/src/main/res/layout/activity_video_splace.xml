@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".ui.activity.SplaceScreen">
+
+    <ImageView
+        android:id="@+id/ivSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/splash"/>
+
+    <ImageView
+        android:id="@+id/ivSplash1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/splash"/>
+
+
+    <TextView
+        android:id="@+id/tvSkip"
+        android:background="@drawable/round_corner_white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dp_70"
+        android:textSize="@dimen/sp_12"
+        android:paddingRight="@dimen/dp_5"
+        android:paddingLeft="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_3"
+        android:gravity="center"
+        android:visibility="gone"
+        android:paddingBottom="@dimen/dp_3"
+        android:text="@string/skip"
+        android:textColor="@color/colorPrimary"/>
+
+    </RelativeLayout>
+</layout>
+

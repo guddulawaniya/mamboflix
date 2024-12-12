@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_10"
+                tools:context=".ui.activity.LoginActivity">
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:elevation="@dimen/dp_8"
+                    app:cardBackgroundColor="@color/colorApp"
+                    android:layout_marginTop="@dimen/dp_8"
+                    app:cardCornerRadius="@dimen/dp_10"
+                    app:cardElevation="3dp"
+                    app:cardUseCompatPadding="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/sp_12"
+                        android:paddingTop="@dimen/dp_20"
+                        android:paddingRight="@dimen/sp_12"
+                        android:paddingBottom="@dimen/dp_20">
+
+
+                        <TextView
+                            android:id="@+id/tvTitle2"
+                            android:visibility="visible"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:fontFamily="@font/din_black_alternate"
+                            android:layout_marginTop="@dimen/dp_8"
+                            android:text="@string/select_your_language"
+                            android:textSize="@dimen/dp_24"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+
+                        <RelativeLayout
+                            android:id="@+id/lytEnglish"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="@dimen/dp_35"
+                            android:padding="@dimen/dp_10"
+                            android:background="@drawable/round_corner_white"
+                            android:gravity="center_vertical">
+
+
+                            <TextView
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:text="@string/english"
+                                android:fontFamily="@font/din_medium"
+                                android:drawablePadding="@dimen/dp_10"
+                                android:drawableStart="@drawable/flag_united_states_of_america"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp_16"
+                                android:layout_alignParentLeft="true"
+                                android:drawableLeft="@drawable/flag_united_states_of_america" />
+
+
+                            <ImageView
+                                android:id="@+id/ivEnglish"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:src="@drawable/check" />
+
+
+
+                        </RelativeLayout>
+
+
+
+
+                        <RelativeLayout
+                            android:id="@+id/lytKiswahili"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:padding="@dimen/dp_10"
+                            android:background="@drawable/round_corner_white"
+                            android:gravity="center_vertical">
+
+
+                            <TextView
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:text="@string/kiswahili"
+                                android:drawablePadding="@dimen/dp_10"
+                                android:fontFamily="@font/din_medium"
+                                android:drawableStart="@drawable/flag_tanzania"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/sp_16"
+                                android:drawableLeft="@drawable/flag_tanzania"
+                                android:layout_alignParentLeft="true" />
+
+
+                            <ImageView
+                                android:id="@+id/ivKiswahili"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/uncheck"/>
+
+
+
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/lytNext"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_marginTop="@dimen/dp_35">
+
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_weight=".2"
+                                android:layout_height="match_parent"/>
+
+
+                            <Button
+                                android:id="@+id/btnNext"
+                                android:layout_width="0dp"
+                                android:layout_weight=".6"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/round_corner_orange"
+                                android:layout_margin="@dimen/dp_4"
+                                android:fontFamily="@font/din_medium"
+                                android:text="@string/next"
+                                android:textStyle="bold"
+                                android:textSize="@dimen/sp_16"
+                                android:textAllCaps="true"
+                                android:textColor="@color/white"/>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_weight=".2"
+                                android:layout_height="match_parent"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+
+

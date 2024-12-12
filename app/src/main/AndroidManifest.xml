@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mamboflix">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+
+    <uses-permission
+        android:name="com.google.android.gms.permission.AD_ID"
+        tools:node="remove" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:name="com.mamboflix.AndroidApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:enableOnBackInvokedCallback="true"
+        android:theme="@style/AppBaseTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup">
+
+        <activity
+            android:name="com.mamboflix.ui.activity.offersection.CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mamboflix.ui.activity.TestHLSActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name="com.mamboflix.HomeActivity3.HomeActivity3"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.mamboflix.ui.activity.HomeActivity2.HomeActivity2"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.mamboflix.ui.activity.recentView.RecentViewActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.mamboflix.ui.activity.filter.FilterActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.mamboflix.ui.activity.search.SearchActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.mamboflix.ui.activity.SplaceScreen"
+            android:exported="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/mamboflix_banner" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/green" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:exported="true" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mamboflix.ui.activity.HomeActivity"
+            android:configChanges="locale"
+            android:label="Home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.mamboflix.ui.activity.login.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.mamboflix.ui.activity.forgotpassword.OtpVerifyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.player.PlayerViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.mamboflix.ui.activity.initial.LanguageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.forgotpassword.ForgotPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.forgotpassword.UpdatePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.signup.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.signup.InterestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.signup.AddProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.signup.WatchTypeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.contentdetails.ContentDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.profile.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.profile.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.ContacUsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.mamboflix.ui.activity.initial.VideoSplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.mamboflix.ui.activity.payment.PaymentBillingActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.mamboflix.ui.activity.payment.PaymentBillingDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.managedevices.ManageDevicesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.settings.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.player.PlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.mamboflix.ui.activity.FaqActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.MyListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.MyDownloadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.NotificationsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.initial.SubUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.HelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.payment.MakePaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.offersection.Offers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.purchsedhistory.PurchasedHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mamboflix.ui.activity.reviews.Reviews"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.mamboflix.utils.videoDownloadUtils.DownloadService"
+            android:foregroundServiceType="dataSync"
+            android:exported="false"
+            tools:ignore="ForegroundServicePermission" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.mamboflix.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+
+
+        <service
+            android:name="com.mamboflix.fcm.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.mamboflix.utils.FirebaseMessagingServices"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.mamboflix.utils.UninstallIntentReceiver"
+            android:exported="false">
+            <intent-filter android:priority="0">
+                <action android:name="android.intent.action.QUERY_PACKAGE_RESTART" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="firebase_messaging_auto_init_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="firebase_analytics_collection_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+    </application>
+</manifest>

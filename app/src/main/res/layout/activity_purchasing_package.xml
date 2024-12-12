@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                app:theme="@style/AppTheme.PopupOverlay"
+                app:titleTextColor="@color/white"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/dp_5"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:background="@drawable/round_corner_light"
+                        android:id="@+id/singleuser">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:id="@+id/selectsinglepack"
+                            android:background="@drawable/circle_white_corner">
+
+                        </ImageView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/single_user"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textAllCaps="true"
+                            android:layout_marginLeft="8dp"
+                            android:textSize="@dimen/sp_16"
+                            android:textColor="@color/white">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:background="@drawable/round_corner_light"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:id="@+id/familypack"
+                      >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:id="@+id/selectfamilypack"
+                            android:background="@drawable/circle_white_corner">
+
+                        </ImageView>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/family_pack"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textAllCaps="true"
+                            android:layout_marginLeft="8dp"
+                            android:textSize="@dimen/sp_16"
+                            android:textColor="@color/white">
+
+
+                        </TextView>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+        <!--        <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/single_user"
+                        android:background="@drawable/round_corner_light"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="@dimen/dp_5"
+                        android:textAllCaps="true"
+                        android:id="@+id/singleuser"
+                        android:button="@drawable/radio_button_selector1"
+                        android:textSize="@dimen/sp_16"
+                        android:textColor="@color/white">
+
+
+                    </RadioButton>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/family_pack"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="@dimen/dp_5"
+                        android:id="@+id/familypack"
+                        android:textAllCaps="true"
+                        android:background="@drawable/round_corner_light"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:button="@drawable/radio_button_selector1"
+                        android:textSize="@dimen/sp_16"
+                        android:textColor="@color/white">
+
+
+                    </RadioButton>
+
+
+
+                </RadioGroup>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_10"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/entercoupon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_corner_light"
+                        android:baselineAligned="false"
+                        android:hint="Enter Coupon"
+                        android:padding="@dimen/dp_10"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/gray"
+                        android:textSize="@dimen/sp_16">
+
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/applycoupon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:background="@drawable/round_corner_light1"
+                        android:padding="@dimen/dp_10"
+                        android:text="@string/apply1"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+                </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10"
+                android:layout_gravity="center"
+                tools:listitem="@layout/layout_purchasing"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

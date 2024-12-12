@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:elevation="@dimen/dp_8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="@color/colorApp"
+        android:layout_marginTop="@dimen/dp_8"
+        app:cardCornerRadius="@dimen/dp_10"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/sp_12"
+            android:paddingTop="@dimen/dp_20"
+            android:paddingRight="@dimen/sp_12"
+            android:paddingBottom="@dimen/dp_20">
+
+
+            <TextView
+                android:id="@+id/tvTitle2"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="@string/select_your_language"
+                android:textSize="@dimen/dp_24"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+
+
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/rgLanguageDialog"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/lytEnglish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/dp_35"
+                    android:padding="@dimen/dp_10"
+                    android:layoutDirection="rtl"
+                    android:background="@drawable/round_corner_white"
+                    android:gravity="center_vertical">
+
+
+                    <RadioButton
+                        android:id="@+id/rbLanguage1"
+                        android:textStyle="bold"
+                        android:padding="@dimen/dp_5"
+                        android:drawablePadding="@dimen/dp_10"
+                        android:drawableEnd="@drawable/flag_united_states_of_america"
+                        android:button="@drawable/radio_button_selector"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/english"
+                        android:drawableRight="@drawable/flag_united_states_of_america" />
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/lytKishawahi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/dp_35"
+                    android:padding="@dimen/dp_10"
+                    android:layoutDirection="rtl"
+                    android:background="@drawable/round_corner_white"
+                    android:gravity="center_vertical">
+
+
+                    <RadioButton
+                        android:id="@+id/rbLanguage2"
+                        android:textStyle="bold"
+                        android:padding="@dimen/dp_5"
+                        android:drawablePadding="@dimen/dp_10"
+                        android:drawableEnd="@drawable/flag_tanzania"
+                        android:button="@drawable/radio_button_selector"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kiswahili"
+                        android:drawableRight="@drawable/flag_tanzania" />
+
+
+
+                </RelativeLayout>
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

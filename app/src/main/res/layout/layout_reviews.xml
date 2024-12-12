@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aa"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:visibility="gone"
+                    android:background="@drawable/bg_rounded_rectangle_white_corner_rounded1"
+                    android:elevation="2dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dp_10"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/off"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/dp_15"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:text="User Name"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/dp_8"
+                        android:visibility="visible"
+                        android:layout_marginTop="@dimen/dp_5"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif"
+                            android:textSize="16sp"
+                            android:layout_gravity="center"
+                            android:layout_below="@+id/aa"
+                            android:id="@+id/description"
+                            android:layout_marginRight="@dimen/dp_5"
+                            android:textColor="@color/white"
+                            android:text="When you won't have"/>
+
+
+                        <RatingBar
+                            android:id="@+id/myRatingBar"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_gravity="center"
+                            android:theme="@style/RatingBar"
+                            android:layout_marginRight="@dimen/dp_5"
+                            android:layout_height="wrap_content"
+                            android:numStars="5"
+                            android:isIndicator="true" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:textSize="16sp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="@dimen/dp_5"
+                            android:visibility="gone"
+                            android:layout_weight="1"
+                            android:id="@+id/ratingno"
+                            android:textColor="@color/white"
+                            android:text="3.0"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:textSize="16sp"
+                            android:layout_gravity="center"
+                            android:visibility="gone"
+                            android:id="@+id/date"
+                            android:textColor="@color/white"
+                            android:text="21-02-2021"/>
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_below="@+id/aa"
+            android:background="@color/white"
+            android:layout_marginBottom="@dimen/dp_2"
+            android:layout_height="0.2dp">
+
+        </View>
+
+
+    </RelativeLayout>
+</layout>
